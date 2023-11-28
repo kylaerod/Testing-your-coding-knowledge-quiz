@@ -16,17 +16,61 @@
     <div id="info_title">
         <span>Before we start...</span>
     </div>
-    <div class="info_list">
-        <div class="info">1. You will have 1 minute to answer all 5 questions.</div> 
+    <div id="info_list">
+        <div class="info">1. You will have <span>1 minute </span>to answer all 5 questions.</div> 
         <div class="info">2. You only get one chance to answer each question.</div> 
         <div class="info">3. Once you start the quiz, you cannot exit.</div> 
         <div class="info">4. Do your best and have fun!</div> 
     </div>
-    <div class="buttons">
+    <div class="starters">
         <button class="quit">Exit</button>
         <button class="restart">Next</button>
     </div>
 </div>
+
+<!-- Initial Quiz Box -->
+<div class="quiz_box">
+    <header>
+        <div id="title">What Do You Know About Coding?</div>
+        <div class="timer">
+            <div id="time_text">Time Left</div>
+            <div id="timer_sec">60 </div>
+        </div> 
+    </header>
+    <section>
+        <div id="text_intro">
+            <span>What does 'HTML' stand for?</span>
+        </div>
+        <div class="answers">
+            <div id="option">
+                <span>Hyerspeed Timing Marker List</span>
+                <div id="icon cross"></div>
+            </div>
+            <div id="option">
+                <span>Hyper Text Markup Language</span>
+                <div id="icon tick"></div>
+            </div>
+            <div id="option">
+                <span>Happy Timid Marsupial Lord</span>
+                <div id="icon cross"></div>
+            </div>
+            <div id="option">
+                <span>Hard To Make Lemons</span>
+                <div id="icon cross"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Score Keeper -->
+    <footer>
+        <div class="Score_keeper">
+        <span><p>2</p>of<p>5</p>questions</span>
+        </div>
+        <button id="next_btn">Next Question</button>
+    </footer>
+</div>
+
+
 
 
 </body>
